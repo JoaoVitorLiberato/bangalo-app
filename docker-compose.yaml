@@ -1,0 +1,52 @@
+services:
+  app:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: joaovitor98/bangalo-image-back
+    container_name: app
+    tty: true
+    restart: always
+    ports:
+      - 3000:3000
+    volumes:
+      - ./:/usr/src/app
+    networks:
+      - bangalo
+    depends_on:
+      - database
+  database:
+    image: mariadb:10.5
+    container_name: database
+    command: --innodb-use-native-aio=0
+    ports:
+      - 3306:3306
+    volumes:
+      - ./cache/database:/var/lib/mysql
+    networks:
+      - bangalo
+    environment:
+      - MARIADB_USER=application
+      - MARIADB_DATABASE=bangalo
+      - MARIADB_PASSWORD=da21zg52
+      - MARIADB_ROOT_PASSWORD=da21zg53
+    tty: true
+    restart: always
+  nginx:
+    build:
+      context: ./src/nginx/
+      dockerfile: Dockerfile
+    image: joaovitor98/nginx-app
+    container_name: nginx
+    ports:
+      - 8080:80
+    networks:
+      - bangalo
+    tty: true
+    restart: always
+    depends_on:
+      - app
+
+networks:
+  bangalo:
+    driver: bridge
