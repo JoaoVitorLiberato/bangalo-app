@@ -17,8 +17,8 @@ class StorageController {
   upload = async (request, response) => {
     if (request.file) {
       return response.status(200).json({
-        error: false,
-        messagem: "Upload realizado com sucesso!"
+        messagem: "Upload realizado com sucesso!",
+        nameImage: request.file.filename
       })
     }
   

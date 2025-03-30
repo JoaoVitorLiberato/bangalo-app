@@ -13,20 +13,27 @@ const controller = new CategoriesController()
  *       200:
  *         description: Lista com todoas as categorias no banco de dados.
  *       400:
- *          description: Envia uma propriedade codigo: error-find-cotegories
+ *          description: Envia uma propriedade codigo = error-find-cotegories
 */
 router.get("/categorias", controller.list)
 
 /**
  * @swagger
- * /categoria/:id:
+ * /categoria/{id}:
  *   get:
  *     summary: Retorna uma categoria específica.
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema:
+ *           type: string
+ *         description: Pasta onde o arquivo está salvo
  *     responses:
  *       200:
  *         description: Lista uma categoria específica.
  *       400:
- *          description: Envia uma propriedade codigo: error-find-specific-category
+ *          description: Envia uma propriedade codigo = error-find-specific-category
 */
 router.get("/categoria/:id", controller.listByID)
 
@@ -35,37 +42,58 @@ router.get("/categoria/:id", controller.listByID)
  * /categoria:
  *   post:
  *     summary: Cria uma categoria específica
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema:
+ *           type: string
+ *         description: Pasta onde o arquivo está salvo
  *     responses:
  *       200:
  *         description: Cria uma categoria específica.
  *       400:
- *          description: Envia uma propriedade codigo: error-create-category
+ *          description: Envia uma propriedade codigo = error-create-category
 */
 router.post("/categoria", controller.create)
 
 /**
  * @swagger
- * /categoria/:id
+ * /categoria/{id}:
  *   put:
  *     summary: Atualiza uma categoria específica
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema:
+ *           type: string
+ *         description: Pasta onde o arquivo está salvo
  *     responses:
  *       200:
  *         description: Atualiza uma categoria específica.
  *       400:
- *          description: Envia uma propriedade codigo: error-update-category
+ *          description: Envia uma propriedade codigo = error-update-category
 */
 router.put("/categoria/:id", controller.update)
 
 /**
  * @swagger
- * /categoria/:id
+ * /categoria/{id}:
  *   delete:
  *     summary: Deleta uma categoria específica
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema:
+ *           type: string
+ *         description: Pasta onde o arquivo está salvo
  *     responses:
  *       200:
  *         description: Deleta uma categoria específica.
  *       400:
- *          description: Envia uma propriedade codigo: error-delete-category
+ *          description: Envia uma propriedade codigo = error-delete-category
 */
 router.delete("/categoria/:id", controller.delete)
 

@@ -13,7 +13,7 @@ const controller = new ProductsController()
  *       200:
  *         description: Lista com todos produtos no banco de dados.
  *       400:
- *          description: Manda uma propriedade "codigo": ""error-find-products""
+ *          description: Manda uma propriedade "codigo" = "error-find-products"
 */
 router.get("/produtos", (req: Request, res: Response) => { controller.list(req, res) })
 

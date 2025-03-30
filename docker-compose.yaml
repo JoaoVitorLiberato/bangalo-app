@@ -3,7 +3,7 @@ services:
     build:
       context: ./
       dockerfile: Dockerfile
-    image: joaovitor98/bangalo-image-back
+    image: joaovitor98/bangalo-app
     container_name: app
     tty: true
     restart: always
@@ -13,8 +13,20 @@ services:
       - ./:/usr/src/app
     networks:
       - bangalo
+    environment:
+      - APPLICATION_PORT=3000
+      - NODE_ENV=development
+      - MARIADB_USER=application
+      - MARIADB_DATABASE=bangalo
+      - MARIADB_ROOT_PASSWORD=da21zg53
+      - MARIADB_PASSWORD=da21zg52
+      - MARIADB_PORT=3306
+      - MARIADB_DIALECT=mariadb
+      - MARIADB_HOST=database
+      - STORAGE_SERVICE=http://localhost:4000
     depends_on:
       - database
+      - storage
   database:
     image: mariadb:10.5
     container_name: database
@@ -32,6 +44,23 @@ services:
       - MARIADB_ROOT_PASSWORD=da21zg53
     tty: true
     restart: always
+  storage:
+    build:
+      context: ./microservices/storage/
+      dockerfile: Dockerfile
+    image: joaovitor98/storage-app
+    container_name: storage
+    tty: true
+    restart: always
+    environment:
+      - APPLICATION_STORAGE_PORT=4000
+      - APPLICATION_STORAGE_ACCESS=http://localhost:3000
+    volumes:
+      - ./microservices/storage:/usr/src/storage
+    ports:
+      - 4000:4000
+    networks:
+      - bangalo
   nginx:
     build:
       context: ./src/nginx/
