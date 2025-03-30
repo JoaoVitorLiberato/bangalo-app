@@ -27,7 +27,7 @@ export class ProductsController extends ProductsRepository {
         });
       });
     
-      const IMAGE: File = files.image[0]
+      const IMAGE: File = files.image[0] ?? null
       const PRODUCT = JSON.parse(fields.product[0])
 
       if (!PRODUCT) {
