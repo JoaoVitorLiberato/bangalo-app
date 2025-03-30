@@ -3,7 +3,7 @@ import dotenv from "dotenv"
 
 dotenv.config()
 
-app.get("/", (_request, response, _next) => {
+app.get("/v1", (_request, response, _next) => {
   response.send("Storage está online")
 })
 

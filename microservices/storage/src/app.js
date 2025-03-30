@@ -13,9 +13,9 @@ const app = express()
 app.use(express.json())
 app.use(cors({ origin: process.env.APPLICATION_STORAGE_ACCESS }))
 app.use(helmet())
-app.use(morgan("tiny"))
+app.use(morgan("combined"))
 
-app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+app.use('/v1/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 app.use("/v1", StorageRouter)
 
 export default app

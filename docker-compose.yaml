@@ -23,7 +23,7 @@ services:
       - MARIADB_PORT=3306
       - MARIADB_DIALECT=mariadb
       - MARIADB_HOST=database
-      - STORAGE_SERVICE=http://localhost:4000
+      - STORAGE_SERVICE=http://localhost:4000/v1
     depends_on:
       - database
       - storage

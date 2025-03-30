@@ -1,7 +1,4 @@
-/node_modules
-/dist
-/cache
-
+logs
 cache
 node_modules
 dist

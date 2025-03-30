@@ -18,7 +18,7 @@ class StorageController {
     if (request.file) {
       return response.status(200).json({
         messagem: "Upload realizado com sucesso!",
-        nameImage: request.file.filename
+        path: request.file.path
       })
     }
   

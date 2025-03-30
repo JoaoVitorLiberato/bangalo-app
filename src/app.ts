@@ -15,7 +15,7 @@ connectDatabase()
 
 
 app.use(helmet())
-app.use(morgan("tiny"))
+app.use(morgan("combined"))
 app.use(express.json())
 app.use(
   cors({

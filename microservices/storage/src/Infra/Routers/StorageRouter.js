@@ -48,7 +48,7 @@ router.get("/upload/:folder/:filename", controller.image)
  *       200:
  *         description: Imagem foi salva com sucesso.
  *       400:
- *          description: Envia uma propriedade boolean com o valor true
+ *          description: Envia uma propriedade boolean com o error = true
 */
 router.post("/upload/:folder", _storage.single("image"), controller.upload)
 

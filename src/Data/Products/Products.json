@@ -1,0 +1,2204 @@
+[
+  {
+    "url_image": "https://th.bing.com/th/id/R.557584b0b206eb3d9dfd5596c515edbe?rik=xTKw%2bXvSDMtGIw&riu=http%3a%2f%2fgrupoilha.com.br%2fstatic%2fimg%2fguaiamum%2fcardapio%2fsunomono-de-salmao.jpg&ehk=665D5mW0N449ieBykFKjdm6RU1ICZMBVZOuwvi2pbJw%3d&risl=&pid=ImgRaw&r=0",
+    "categoryId": "2fcfbc30-c2eb-4266-a0b6-19064b26a561",
+    "name": "Sunomono de salmão",
+    "description": "1 Porção - Salada de pepino com cubos de salmão com gergelim torrado.",
+    "price": {
+      "default": 2500,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": true,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://th.bing.com/th/id/R.557584b0b206eb3d9dfd5596c515edbe?rik=xTKw%2bXvSDMtGIw&riu=http%3a%2f%2fgrupoilha.com.br%2fstatic%2fimg%2fguaiamum%2fcardapio%2fsunomono-de-salmao.jpg&ehk=665D5mW0N449ieBykFKjdm6RU1ICZMBVZOuwvi2pbJw%3d&risl=&pid=ImgRaw&r=0",
+    "categoryId": "entrada",
+    "name": "Sunomono de camarão",
+    "description": "1 Porção - Salada de pepino com cubos de camarão com gergelim torrado.",
+    "price": {
+      "default": 2500,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://th.bing.com/th/id/R.557584b0b206eb3d9dfd5596c515edbe?rik=xTKw%2bXvSDMtGIw&riu=http%3a%2f%2fgrupoilha.com.br%2fstatic%2fimg%2fguaiamum%2fcardapio%2fsunomono-de-salmao.jpg&ehk=665D5mW0N449ieBykFKjdm6RU1ICZMBVZOuwvi2pbJw%3d&risl=&pid=ImgRaw&r=0",
+    "categoryId": "entrada",
+    "name": "Sunomono misto",
+    "description": "1 Porção - Salada de pepino com cubos de salmão e camarão com gergelim torrado.",
+    "price": {
+      "default": 2000,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://th.bing.com/th/id/OIP.d0LXIij3X6hFfGaqUS5HSAHaLN?rs=1&pid=ImgDetMain",
+    "categoryId": "entrada",
+    "name": "Ceviche",
+    "description": "Salada cítrica de peixe",
+    "price": {
+      "default": 4000,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://474dc9b66e7f4cdb9108-4da59f95c7ddee7911c0a6710183a80d.ssl.cf1.rackcdn.com/PostImagem/24675/a-importacircncia-da-fotografia-para-a-gastronomia_o1d4apdul7fknqav15mj6kj6uti.jpg",
+    "categoryId": "entrada",
+    "name": "Carpaccio",
+    "description": "10 Lâminas de Salmão ao molho ponzo.",
+    "price": {
+      "default": 4000,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://sakura.com.br/wp-content/uploads/2016/09/BLOG_receitas_hotroll.jpg",
+    "categoryId": "pecas",
+    "name": "Hot Carioca salmão - (5 peças)",
+    "description": "5 peças com arroz espalhado com salmão por dentro.",
+    "price": {
+      "default": 1500,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 500
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://sakura.com.br/wp-content/uploads/2016/09/BLOG_receitas_hotroll.jpg",
+    "categoryId": "pecas",
+    "name": "Hot Carioca camarão - (5 peças)",
+    "description": "5 peças com arroz espalhado com camarão por dentro.",
+    "price": {
+      "default": 1500,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 500
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://sakura.com.br/wp-content/uploads/2016/09/BLOG_receitas_hotroll.jpg",
+    "categoryId": "pecas",
+    "name": "Hot Carioca skin - (5 peças)",
+    "description": "Arroz espalhado na nori com pele do salmão frita e cream cheese empanado na farinha panko.",
+    "price": {
+      "default": 1000,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 500
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://sakura.com.br/wp-content/uploads/2016/09/BLOG_receitas_hotroll.jpg",
+    "categoryId": "pecas",
+    "name": "Hot Carioca kani - (5 peças)",
+    "description": "Arroz espalhado na nori com carne de caranguejo frita e cream cheese empanado na farinha panko.",
+    "price": {
+      "default": 1300,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 500
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://keikosushi.com.br/super/uploads/productMenu/dddc82eeafc8d940d348f1aad6ed7538.jpg",
+    "categoryId": "pecas",
+    "name": "Hossomaki salmão - (5 peças)",
+    "description": "Arroz espalhado na nori com salmão e cream cheese.",
+    "price": {
+      "default": 1500,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 300
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://keikosushi.com.br/super/uploads/productMenu/dddc82eeafc8d940d348f1aad6ed7538.jpg",
+    "categoryId": "pecas",
+    "name": "Hossomaki camarão (5 peças)",
+    "description": "Arroz espalhado na nori com camarão e cream cheese.",
+    "price": {
+      "default": 1500,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 300
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://keikosushi.com.br/super/uploads/productMenu/dddc82eeafc8d940d348f1aad6ed7538.jpg",
+    "categoryId": "pecas",
+    "name": "Hossomaki kani (5 peças)",
+    "description": "Arroz espalhado na nori com pele de salmão e cream cheese.",
+    "price": {
+      "default": 1300,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 300
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://keikosushi.com.br/super/uploads/productMenu/dddc82eeafc8d940d348f1aad6ed7538.jpg",
+    "categoryId": "pecas",
+    "name": "Hossomaki skin (5 peças)",
+    "description": "Arroz espalhado na nori com carne de caranguejo e cream cheese.",
+    "price": {
+      "default": 1000,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 300
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://th.bing.com/th/id/R.14a29143b917cfa2ddf827ae31f5d00d?rik=dGOACvfwLmVG4A&pid=ImgRaw&r=0",
+    "categoryId": "pecas",
+    "name": "Uramaki salmão - (4 peças)",
+    "description": "Arroz espalhado na nori por fora com gergelim, salmão e cream cheese",
+    "price": {
+      "default": 1500,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 300
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://th.bing.com/th/id/R.14a29143b917cfa2ddf827ae31f5d00d?rik=dGOACvfwLmVG4A&pid=ImgRaw&r=0",
+    "categoryId": "pecas",
+    "name": "Uramaki camarão - (4 peças)",
+    "description": "Arroz espalhado na nori por fora com gergelim, camarão e cream cheese",
+    "price": {
+      "default": 1500,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 300
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://th.bing.com/th/id/R.14a29143b917cfa2ddf827ae31f5d00d?rik=dGOACvfwLmVG4A&pid=ImgRaw&r=0",
+    "categoryId": "pecas",
+    "name": "Uramaki Kani - (4 peças)",
+    "description": "Arroz espalhado na nori por fora com gergelim, pele de salmão e cream cheese",
+    "price": {
+      "default": 1300,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 300
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://th.bing.com/th/id/R.14a29143b917cfa2ddf827ae31f5d00d?rik=dGOACvfwLmVG4A&pid=ImgRaw&r=0",
+    "categoryId": "pecas",
+    "name": "Uramaki skin (4 peças)",
+    "description": "Arroz espalhado na nori por fora com gergelim, carne de caranguejo e cream cheese",
+    "price": {
+      "default": 1000,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 300
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://media-cdn.tripadvisor.com/media/photo-s/05/8b/ea/4b/rakki-cozinha-oriental.jpg",
+    "categoryId": "temaki",
+    "name": "Temaki salmão",
+    "description": "1 unidade com arroz enrolado no nori em formato de cone com cream cheese, salmão e cebolinha.",
+    "price": {
+      "default": 3500,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 300
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://media-cdn.tripadvisor.com/media/photo-s/05/8b/ea/4b/rakki-cozinha-oriental.jpg",
+    "categoryId": "temaki",
+    "name": "Temaki kani",
+    "description": "1 unidade com arroz enrolado no nori em formato de cone com cream cheese, kani e cebolinha.",
+    "price": {
+      "default": 3200,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 300
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://media-cdn.tripadvisor.com/media/photo-s/05/8b/ea/4b/rakki-cozinha-oriental.jpg",
+    "categoryId": "temaki",
+    "name": "Temaki skin",
+    "description": "1 unidade com arroz enrolado no nori em formato de cone com cream cheese, pele de peixe frita e cebolinha.",
+    "price": {
+      "default": 3000,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 300
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://media-cdn.tripadvisor.com/media/photo-s/05/8b/ea/4b/rakki-cozinha-oriental.jpg",
+    "categoryId": "temaki",
+    "name": "Temaki Camarão",
+    "description": "1 unidade com arroz enrolado no nori em formato de cone com cream cheese, camarão e cebolinha.",
+    "price": {
+      "default": 3500,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 300
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": true,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://media-cdn.tripadvisor.com/media/photo-s/05/8b/ea/4b/rakki-cozinha-oriental.jpg",
+    "categoryId": "temaki",
+    "name": "Temaki misto",
+    "description": "1 unidade com arroz enrolado no nori em formato de cone com cream cheese, camarão, salmão, kani e cebolinha.",
+    "price": {
+      "default": 3200,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 300
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://th.bing.com/th/id/OIP.sZwabP-9NAwyn-79JewMcgHaE5?rs=1&pid=ImgDetMain",
+    "categoryId": "temakisa",
+    "name": "Temaki s/arroz Salmão",
+    "description": "1 unidade sem arroz enrolado no nori em formato de cone com cream cheese e cebolinha.",
+    "price": {
+      "default": 3600,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 400
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://th.bing.com/th/id/OIP.sZwabP-9NAwyn-79JewMcgHaE5?rs=1&pid=ImgDetMain",
+    "categoryId": "temakisa",
+    "name": "Temaki s/arroz Camarão",
+    "description": "1 unidade sem arroz enrolado no nori em formato de cone com cream cheese, camarão e cebolinha.",
+    "price": {
+      "default": 3600,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 400
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": true,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://th.bing.com/th/id/OIP.sZwabP-9NAwyn-79JewMcgHaE5?rs=1&pid=ImgDetMain",
+    "categoryId": "temakisa",
+    "name": "Temaki s/arroz Skin",
+    "description": "1 unidade sem arroz enrolado no nori em formato de cone com cream cheese, pele de peixe e cebolinha.",
+    "price": {
+      "default": 3000,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 400
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://th.bing.com/th/id/OIP.sZwabP-9NAwyn-79JewMcgHaE5?rs=1&pid=ImgDetMain",
+    "categoryId": "temakisa",
+    "name": "Temaki s/arroz Misto",
+    "description": "1 unidade sem arroz enrolado no nori em formato de cone com cream cheese, camarão, salmão, kani e cebolinha.",
+    "price": {
+      "default": 3300,
+      "discount": {
+        "active": false,
+        "value": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 400
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 400
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://thumbs.dreamstime.com/b/warm-sushi-roll-hot-dog-panko-breadcrumbs-271860629.jpg",
+    "categoryId": "hot",
+    "name": "Big Hot Salmão - (1 unid)",
+    "description": "Hot partido no meio recheado com cubos de salmão, cream cheese e cebolinha",
+    "price": {
+      "default": 3800,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": true,
+        "input": "actived",
+        "active": true,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://thumbs.dreamstime.com/b/warm-sushi-roll-hot-dog-panko-breadcrumbs-271860629.jpg",
+    "categoryId": "hot",
+    "name": "Big Hot Camarão - (1 unid)",
+    "description": "Hot partido no meio recheado com cubos de camarão, cream cheese e cebolinha",
+    "price": {
+      "default": 3800,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": true,
+        "input": "actived",
+        "active": true,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://thumbs.dreamstime.com/b/warm-sushi-roll-hot-dog-panko-breadcrumbs-271860629.jpg",
+    "categoryId": "hot",
+    "name": "Big Hot Misto - (1 unid)",
+    "description": "Hot partido no meio recheado com cubos de salmão, kani e camarão, cream cheese e cebolinha",
+    "price": {
+      "default": 3500,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": true,
+        "input": "actived",
+        "active": true,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://www.alchimista.org/wp-content/uploads/2018/05/alchimista-castelfranco-pizzeria-gourmet-sushi-burger-proposta-5.jpg",
+    "categoryId": "hot",
+    "name": "Sushi Burger Salmão - (1 unid)",
+    "description": "Arroz em forma de pão, com cubos de salmão, cream cheese e cebolinha.",
+    "price": {
+      "default": 4500,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://www.alchimista.org/wp-content/uploads/2018/05/alchimista-castelfranco-pizzeria-gourmet-sushi-burger-proposta-5.jpg",
+    "categoryId": "hot",
+    "name": "Sushi Burger Camarão - (1 unid)",
+    "description": "Arroz em forma de pão, com pedaços de camarão, cream cheese e cebolinha.",
+    "price": {
+      "default": 4500,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://www.alchimista.org/wp-content/uploads/2018/05/alchimista-castelfranco-pizzeria-gourmet-sushi-burger-proposta-5.jpg",
+    "categoryId": "hot",
+    "name": "Sushi Burger Misto- (1 unid)",
+    "description": "Arroz em forma de pão, com pedaços de camarão, salmão, kani, cream cheese e cebolinha.",
+    "price": {
+      "default": 4000,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://www.bing.com/images/search?view=detailV2&ccid=rm4o2LZV&id=51ABA0ADC4E8FE0FFAD0F3EF1FA72898055E79B8&thid=OIP.rm4o2LZV2iOu83ECOsG-pwHaEm&mediaurl=https%3a%2f%2fwww.tribunadeituverava.com.br%2fwp-content%2fuploads%2f2017%2f12%2fsem-foto-sem-imagem.jpeg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.ae6e28d8b655da23aef371023ac1bea7%3frik%3duHleBZgopx%252fv8w%26pid%3dImgRaw%26r%3d0%26sres%3d1%26sresct%3d1%26srh%3d799%26srw%3d1289&exph=350&expw=564&q=Produto+Sem+Foto&simid=607990885394366834&FORM=IRPRST&ck=DD47FCE7FB3241CFE6193D81D41C02A4&selectedIndex=2&itb=0",
+    "categoryId": "hot",
+    "name": "Mallet Salmão - (10 unid)",
+    "description": "Salmão batido com cream cheese temperado enrolado na massa harumaki",
+    "price": {
+      "default": 4000,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": true,
+        "input": "actived",
+        "active": true,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://www.bing.com/images/search?view=detailV2&ccid=rm4o2LZV&id=51ABA0ADC4E8FE0FFAD0F3EF1FA72898055E79B8&thid=OIP.rm4o2LZV2iOu83ECOsG-pwHaEm&mediaurl=https%3a%2f%2fwww.tribunadeituverava.com.br%2fwp-content%2fuploads%2f2017%2f12%2fsem-foto-sem-imagem.jpeg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.ae6e28d8b655da23aef371023ac1bea7%3frik%3duHleBZgopx%252fv8w%26pid%3dImgRaw%26r%3d0%26sres%3d1%26sresct%3d1%26srh%3d799%26srw%3d1289&exph=350&expw=564&q=Produto+Sem+Foto&simid=607990885394366834&FORM=IRPRST&ck=DD47FCE7FB3241CFE6193D81D41C02A4&selectedIndex=2&itb=0",
+    "categoryId": "hot",
+    "name": "Mallet Misto - (10 unid)",
+    "description": "Salmão, câmara e kani batido com cream cheese temperado enrolado na massa harumaki",
+    "price": {
+      "default": 3800,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": true,
+        "input": "actived",
+        "active": true,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://www.bing.com/images/search?view=detailV2&ccid=rm4o2LZV&id=51ABA0ADC4E8FE0FFAD0F3EF1FA72898055E79B8&thid=OIP.rm4o2LZV2iOu83ECOsG-pwHaEm&mediaurl=https%3a%2f%2fwww.tribunadeituverava.com.br%2fwp-content%2fuploads%2f2017%2f12%2fsem-foto-sem-imagem.jpeg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.ae6e28d8b655da23aef371023ac1bea7%3frik%3duHleBZgopx%252fv8w%26pid%3dImgRaw%26r%3d0%26sres%3d1%26sresct%3d1%26srh%3d799%26srw%3d1289&exph=350&expw=564&q=Produto+Sem+Foto&simid=607990885394366834&FORM=IRPRST&ck=DD47FCE7FB3241CFE6193D81D41C02A4&selectedIndex=2&itb=0",
+    "categoryId": "hot",
+    "name": "Mallet Camarão - (10 unid)",
+    "description": "Camarão batido com cream cheese temperado enrolado na massa harumaki",
+    "price": {
+      "default": 4000,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": true,
+        "input": "actived",
+        "active": true,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://www.bing.com/images/search?view=detailV2&ccid=rm4o2LZV&id=51ABA0ADC4E8FE0FFAD0F3EF1FA72898055E79B8&thid=OIP.rm4o2LZV2iOu83ECOsG-pwHaEm&mediaurl=https%3a%2f%2fwww.tribunadeituverava.com.br%2fwp-content%2fuploads%2f2017%2f12%2fsem-foto-sem-imagem.jpeg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.ae6e28d8b655da23aef371023ac1bea7%3frik%3duHleBZgopx%252fv8w%26pid%3dImgRaw%26r%3d0%26sres%3d1%26sresct%3d1%26srh%3d799%26srw%3d1289&exph=350&expw=564&q=Produto+Sem+Foto&simid=607990885394366834&FORM=IRPRST&ck=DD47FCE7FB3241CFE6193D81D41C02A4&selectedIndex=2&itb=0",
+    "categoryId": "hot",
+    "name": "Bolinha de salmão - (5und)",
+    "description": "Salmão batido com arroz, cream cheese e cebolinha empanado na farinha panko.",
+    "price": {
+      "default": 2500,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": true,
+        "input": "actived",
+        "active": true,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://www.bing.com/images/search?view=detailV2&ccid=rm4o2LZV&id=51ABA0ADC4E8FE0FFAD0F3EF1FA72898055E79B8&thid=OIP.rm4o2LZV2iOu83ECOsG-pwHaEm&mediaurl=https%3a%2f%2fwww.tribunadeituverava.com.br%2fwp-content%2fuploads%2f2017%2f12%2fsem-foto-sem-imagem.jpeg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.ae6e28d8b655da23aef371023ac1bea7%3frik%3duHleBZgopx%252fv8w%26pid%3dImgRaw%26r%3d0%26sres%3d1%26sresct%3d1%26srh%3d799%26srw%3d1289&exph=350&expw=564&q=Produto+Sem+Foto&simid=607990885394366834&FORM=IRPRST&ck=DD47FCE7FB3241CFE6193D81D41C02A4&selectedIndex=2&itb=0",
+    "categoryId": "hot",
+    "name": "Bolinha camarão - (5 unid)",
+    "description": "Camarão batido com arroz, cream cheese e cebolinha empanado na farinha panko.",
+    "price": {
+      "default": 2500,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": true,
+        "input": "actived",
+        "active": true,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://www.bing.com/images/search?view=detailV2&ccid=rm4o2LZV&id=51ABA0ADC4E8FE0FFAD0F3EF1FA72898055E79B8&thid=OIP.rm4o2LZV2iOu83ECOsG-pwHaEm&mediaurl=https%3a%2f%2fwww.tribunadeituverava.com.br%2fwp-content%2fuploads%2f2017%2f12%2fsem-foto-sem-imagem.jpeg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.ae6e28d8b655da23aef371023ac1bea7%3frik%3duHleBZgopx%252fv8w%26pid%3dImgRaw%26r%3d0%26sres%3d1%26sresct%3d1%26srh%3d799%26srw%3d1289&exph=350&expw=564&q=Produto+Sem+Foto&simid=607990885394366834&FORM=IRPRST&ck=DD47FCE7FB3241CFE6193D81D41C02A4&selectedIndex=2&itb=0",
+    "categoryId": "hot",
+    "name": "Bolinha mista - (5 unid)",
+    "description": "Salmão, camarão e kani batido com arroz, cream cheese e cebolinha empanado na farinha panko.",
+    "price": {
+      "default": 2500,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": true,
+        "input": "actived",
+        "active": true,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://media-cdn.tripadvisor.com/media/photo-s/1c/15/86/0a/sashimi-de-salmao.jpg",
+    "categoryId": "especial",
+    "name": "Sashimi salmão - (6 unid)",
+    "description": "Lâminas de salmão",
+    "price": {
+      "default": 3000,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 400
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://media-cdn.tripadvisor.com/media/photo-s/1c/15/86/0a/sashimi-de-salmao.jpg",
+    "categoryId": "especial",
+    "name": "Sashimi Kani - (6 unid)",
+    "description": "Lâminas de kani (carne de caranguejo)",
+    "price": {
+      "default": 1500,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://media-cdn.tripadvisor.com/media/photo-s/1c/15/86/0a/sashimi-de-salmao.jpg",
+    "categoryId": "especial",
+    "name": "Sashimi Camarão - (6 unid)",
+    "description": "Camarão dado choque(pré cozido)",
+    "price": {
+      "default": 2800,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://media-cdn.tripadvisor.com/media/photo-s/1c/15/86/0a/sashimi-de-salmao.jpg",
+    "categoryId": "especial",
+    "name": "Sashimi salmão black - (6 unid)",
+    "description": "Lâminas de salmão defumada",
+    "price": {
+      "default": 3500,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 400
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://resizer.otstatic.com/v2/photos/wide-huge/1/24962302.webp",
+    "categoryId": "especial",
+    "name": "Joy Joy - 6 unid",
+    "description": "Lamina de salmão envolta da bolinha do arroz com salmão batido encima com cream cheese.",
+    "price": {
+      "default": 2800,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 200
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://media-cdn.tripadvisor.com/media/photo-s/12/11/b8/ad/sushis-especiais.jpg",
+    "categoryId": "especial",
+    "name": "Eby Joy - 6 unid",
+    "description": "Lâmina de salmão envolta do arroz com camarão encima.",
+    "price": {
+      "default": 2800,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 200
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://www.muyjapones.com/restaurantesjaponeses/wp-content/uploads/Tropikal-Luxury-Buffet-1.jpg",
+    "categoryId": "especial",
+    "name": "Dragon - 6 unid",
+    "description": "Lâmina de salmão recheada com cream cheese temperado.",
+    "price": {
+      "default": 2800,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 200
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://curtamais.com.br/goiania/wp-content/uploads/sites/2/2024/01/Snapinsta.app_227147465_4194079674035527_6326072854507116285_n_1080.jpg",
+    "categoryId": "especial",
+    "name": "Eby dragon - 6 unid",
+    "description": "Lâmina de salmão recheada com cream cheese temperado e camarão.",
+    "price": {
+      "default": 2800,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 200
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://uploads.metropoles.com/wp-content/uploads/2018/04/26195653/ebi-passon.jpg",
+    "categoryId": "especial",
+    "name": "Eby house - 6 unid",
+    "description": "Lâmina de salmão envolta do camarão crocante.",
+    "price": {
+      "default": 2800,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 200
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://th.bing.com/th/id/R.0065d42f4349d2ffdcce16e22e7e9c4a?rik=h5yH%2fslzdTnATQ&riu=http%3a%2f%2fwww.wixeq.com%2fwp-content%2fuploads%2f2017%2f12%2fsem-imagem.jpg&ehk=d32D9mtcYvZSbd1xnS2Qv6kSPoqLi98uqHWp%2fPTZnt8%3d&risl=&pid=ImgRaw&r=0",
+    "categoryId": "especial",
+    "name": "Eby shakê",
+    "description": "Lâmina de salmão, recheada com cream cheese temperado e camarão natural, empanado na farinha panko.",
+    "price": {
+      "default": 3000,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": true,
+        "input": "actived",
+        "active": true,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://www.muyjapones.com/restaurantesjaponeses/wp-content/uploads/Tropikal-Luxury-Buffet-1.jpg",
+    "categoryId": "especial",
+    "name": "Dragon empanado",
+    "description": "Lâmina de salmão recheado com cream cheese temperado, empanado na farinha panko.",
+    "price": {
+      "default": 3000,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": true,
+        "input": "actived",
+        "active": true,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://images.squarespace-cdn.com/content/v1/5d954566ae137b5f0cbeece5/1584454919640-L52VXF5IT345GRPL7SJZ/IMG_8898_xl.jpg",
+    "categoryId": "especial",
+    "name": "Niguiri Salmão - 6 unid",
+    "description": "Lâmina de salmão por cima de uma bolinha de arroz.",
+    "price": {
+      "default": 2500,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 200
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://images.squarespace-cdn.com/content/v1/5d954566ae137b5f0cbeece5/1584454919640-L52VXF5IT345GRPL7SJZ/IMG_8898_xl.jpg",
+    "categoryId": "especial",
+    "name": "Niguiri Calmarão - 6 unid",
+    "description": "Camarão com uma fita de nori por cima de uma bolinha de arroz.",
+    "price": {
+      "default": 2700,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://images.squarespace-cdn.com/content/v1/5d954566ae137b5f0cbeece5/1584454919640-L52VXF5IT345GRPL7SJZ/IMG_8898_xl.jpg",
+    "categoryId": "especial",
+    "name": "Niguiri Kani- 6 unid",
+    "description": "Lâmina de kani com uma fita de nori, por cima de uma bolinha de arroz",
+    "price": {
+      "default": 1500,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://images.squarespace-cdn.com/content/v1/5d954566ae137b5f0cbeece5/1584454919640-L52VXF5IT345GRPL7SJZ/IMG_8898_xl.jpg",
+    "categoryId": "especial",
+    "name": "Niguiri Skin - 6 unid",
+    "description": "Pele de salmão frita com uma fita de nori, por cima de uma bolinha de arroz",
+    "price": {
+      "default": 1300,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://s3.us-west-2.amazonaws.com/whatsmenu/production/sushiono,culinariaoriental/products/224836/temakikamisupremoinsuperavejpg",
+    "categoryId": "supremo",
+    "name": "Temaki supremo Salmão - (700g)",
+    "description": "Lâmina de salmão envolta de arroz e mais salmão com cream cheese, cebolinha e gergelim em forma de cone.",
+    "price": {
+      "default": 8000,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 500
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://s3.us-west-2.amazonaws.com/whatsmenu/production/sushiono,culinariaoriental/products/224836/temakikamisupremoinsuperavejpg",
+    "categoryId": "supremo",
+    "name": "Temaki supremo Camarão - (700g)",
+    "description": "Lâmina de camarão envolta de arroz e mais camarão com cream cheese, cebolinha e gergelim em forma de cone.",
+    "price": {
+      "default": 8000,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 500
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://s3.us-west-2.amazonaws.com/whatsmenu/production/sushiono,culinariaoriental/products/224836/temakikamisupremoinsuperavejpg",
+    "categoryId": "supremo",
+    "name": "Temaki supremo Misto - (700g)",
+    "description": "Lâmina de salmão envolta de arroz recheado com salmão, camarão e kani com cream cheese, cebolinha e gergelim em forma de cone.",
+    "price": {
+      "default": 7500,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "actived",
+        "active": false,
+        "additional": 500
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://blog.pescagerais.com.br/wp-content/uploads/2020/12/sashimi-sushi-niguiri-maki-01-960x608.jpg",
+    "categoryId": "combinados",
+    "name": "Sugestão do chefe, 20 peças",
+    "description": "5 hot, 5 Hossomaki, 4 uramaki, 2 Niguiri, 2 joy joy, 2 Eby joy",
+    "price": {
+      "default": 6500,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://blog.pescagerais.com.br/wp-content/uploads/2020/12/sashimi-sushi-niguiri-maki-01-960x608.jpg",
+    "categoryId": "combinados",
+    "name": "Bangalô especial, 40 peças",
+    "description": "4 joy, 4 Eby joy, 4 uramaki especial, 10 Hossomaki especial, 4 Niguiri, 10 hot especial, 4 sashimi",
+    "price": {
+      "default": 14000,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://blog.pescagerais.com.br/wp-content/uploads/2020/12/sashimi-sushi-niguiri-maki-01-960x608.jpg",
+    "categoryId": "combinados",
+    "name": "Bangalô hot, 30 peças",
+    "description": "10 hot salmão, 10 hot kani, 10 hot camarão",
+    "price": {
+      "default": 7000,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://th.bing.com/th/id/R.0065d42f4349d2ffdcce16e22e7e9c4a?rik=h5yH%2fslzdTnATQ&riu=http%3a%2f%2fwww.wixeq.com%2fwp-content%2fuploads%2f2017%2f12%2fsem-imagem.jpg&ehk=d32D9mtcYvZSbd1xnS2Qv6kSPoqLi98uqHWp%2fPTZnt8%3d&risl=&pid=ImgRaw&r=0",
+    "categoryId": "doces",
+    "name": "Uramaki de abacaxi, 8 und",
+    "description": "Uramaki de abacaxi caramelizado recheado de camarão",
+    "price": {
+      "default": 2500,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  },
+  {
+    "url_image": "https://th.bing.com/th/id/R.0065d42f4349d2ffdcce16e22e7e9c4a?rik=h5yH%2fslzdTnATQ&riu=http%3a%2f%2fwww.wixeq.com%2fwp-content%2fuploads%2f2017%2f12%2fsem-imagem.jpg&ehk=d32D9mtcYvZSbd1xnS2Qv6kSPoqLi98uqHWp%2fPTZnt8%3d&risl=&pid=ImgRaw&r=0",
+    "categoryId": "doces",
+    "name": "Uramaki de banana, 8 und",
+    "description": "Uramaki de banana caramelizada recheado de camarão",
+    "price": {
+      "default": 2500,
+      "discount": {
+        "active": false,
+        "value": 0
+      }
+    },
+    "differences": {
+      "especial": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "breaded": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      },
+      "flambed": {
+        "readonly": false,
+        "input": "desatived",
+        "active": false,
+        "additional": 0
+      }
+    },
+    "note_client": 0,
+    "apper_start": false,
+    "hero_product": false
+  }
+]

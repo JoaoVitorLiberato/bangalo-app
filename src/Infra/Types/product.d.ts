@@ -1,7 +1,7 @@
-export interface Iproduct {
+export interface IProduct {
   id?: string,
   url_image: string,
-  category: string,
+  categoryId: string,
   name: string,
   description: string,
   price: {
