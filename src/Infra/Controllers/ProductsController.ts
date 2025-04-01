@@ -28,7 +28,8 @@ export class ProductsController extends ProductsRepository {
       const IMAGE = files.image[0] ?? null
       const PRODUCT = JSON.parse(fields.product[0])
 
-      if (!PRODUCT) {
+      console.log(Object.keys(PRODUCT))
+      if (Object.keys(PRODUCT).length === 0) {
         return response.status(400).json({
           messagem: "Os dados do produto é obrigatório.",
           codigo: "void-product-field"
