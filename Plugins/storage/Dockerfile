@@ -9,4 +9,5 @@ WORKDIR /usr/src/storage
 COPY --from=builder-storage package*.json /usr/src/storage
 COPY --from=builder-storage /usr/src/storage/node_modules  /usr/src/storage/node_modules
 EXPOSE 4000
-CMD [ "npm", "run", "start-storage" ]
+ENTRYPOINT [ "npm", "run", "start-storage" ]
+CMD [ "--host=0.0.0.0" ]

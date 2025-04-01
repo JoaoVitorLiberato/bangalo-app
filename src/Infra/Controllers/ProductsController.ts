@@ -1,6 +1,5 @@
 import { Request, Response } from "express"
-import FormData from "form-data"
-import { IncomingForm, File } from "formidable"
+import { IncomingForm } from "formidable"
 import { ProductsRepository } from "../Repositories/ProductsRepository"
 import { upload } from "../Services/StorageService"
 
@@ -20,32 +19,30 @@ export class ProductsController extends ProductsRepository {
 
   create = async (_request: Request, response: Response): Promise<any> => {
     try {
-      const { fields, files } = await new Promise<{ fields: any; files: any }>((resolve, reject) => {
-        new IncomingForm().parse(_request, (err, fields, files) => {
-          if (err) return reject(err);
-          resolve({ fields, files });
-        });
-      });
+      const { fields, files } = await new Promise<{ fields: any; files?: any }>((resolve) => {
+        new IncomingForm().parse(_request, (_, fields, files) => {
+          resolve({ fields, files: files ?? null });
+        })
+      })
     
-      const IMAGE: File = files.image[0] ?? null
+      const IMAGE = files.image[0] ?? null
       const PRODUCT = JSON.parse(fields.product[0])
 
       if (!PRODUCT) {
         return response.status(400).json({
           messagem: "Os dados do produto é obrigatório.",
-          codigo: "error-create-product"
+          codigo: "void-product-field"
         })
       }
 
-      if (IMAGE) {
-        try {
-          const responseUpload = await upload(IMAGE)
-          if (responseUpload && /^(error-upload-image)$/i.test(String(responseUpload.codigo))) throw Error()
-          PRODUCT.url_image = responseUpload?.path
-        } catch {
-          PRODUCT.url_image = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Fbr%2Ficone-gratis%2Fsem-foto_1695213&psig=AOvVaw2d88D_mQlsqHXYTZrg8IHP&ust=1743455141309000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPiMztTasowDFQAAAAAdAAAAABAI"
-          // return response.status(400).json({ ...responseUpload })
+      if (!PRODUCT.url_image  && IMAGE) {
+        const responseUpload = await upload(IMAGE)
+        if (responseUpload && /^(error-upload-image)$/i.test(String(responseUpload.codigo))) {
+          // PRODUCT.url_image = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Fbr%2Ficone-gratis%2Fsem-foto_1695213&psig=AOvVaw2d88D_mQlsqHXYTZrg8IHP&ust=1743455141309000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPiMztTasowDFQAAAAAdAAAAABAI"
+          return response.status(400).json({ ...responseUpload })
         }
+
+        PRODUCT.url_image = responseUpload?.path
       }
 
       const responseRepository = await this.createProduct(PRODUCT)
@@ -54,7 +51,7 @@ export class ProductsController extends ProductsRepository {
       return response.status(201).json({
         messagem: "O produto foi criado com sucesso."
       })
-    } catch {
+    } catch (_) {
       return response.status(400).json({
         messagem: "Houve um erro ao tentar criar o produto, por favor, tente novamente.",
         codigo: "error-create-product"
