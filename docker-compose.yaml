@@ -46,7 +46,7 @@ services:
     restart: always
   storage:
     build:
-      context: ./microservices/storage/
+      context: ./plugins/storage
       dockerfile: Dockerfile
     image: joaovitor98/storage-app
     container_name: storage
@@ -56,7 +56,7 @@ services:
       - APPLICATION_STORAGE_PORT=4000
       - APPLICATION_STORAGE_ACCESS=http://localhost:3000
     volumes:
-      - ./microservices/storage:/usr/src/storage
+      - ./plugins/storage:/usr/src/storage
     ports:
       - 4000:4000
     networks:

@@ -19,6 +19,25 @@ router.get("/produtos", (req: Request, res: Response) => { controller.list(req, 
 
 /**
  * @swagger
+ * /produtos/{id}:
+ *   get:
+ *     summary: Retorna um produto específico.
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema:
+ *           type: string
+ *     responses:
+ *       200:
+ *         description: Retorna um objeto com um produto específico.
+ *       400:
+ *          description: Manda uma propriedade "codigo" = "error-find-specific-products"
+*/
+router.get("/produtos", (req: Request, res: Response) => { controller.list(req, res) })
+
+/**
+ * @swagger
  * /produtos:
  *   post:
  *     summary: Retorna a lista de produtos.

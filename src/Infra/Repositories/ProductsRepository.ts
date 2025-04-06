@@ -10,7 +10,19 @@ export class ProductsRepository {
           if (!responseModel) reject(Error())
           resolve(responseModel as unknown as IProduct[])
         }).catch(_ => {
-          resolve("error")
+          resolve("error-find-products-model")
+        })
+    })
+  }
+
+  async getProductByID (id:string): Promise<IProduct|string> {
+    return new Promise((resolve, reject) => {
+      Products.findByPk(id, { subQuery: false })
+        .then((responseModel) => {
+          if (!responseModel) reject(Error())
+          resolve(responseModel as unknown as IProduct)
+        }).catch(_ => {
+          resolve("error-find-specific-model")
         })
     })
   }

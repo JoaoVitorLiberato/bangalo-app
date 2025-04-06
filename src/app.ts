@@ -8,6 +8,7 @@ import swaggerUi from "swagger-ui-express"
 import { connectDatabase } from "./Database"
 import { ProductsRouter } from "./Infra/Routes/PorductsRouter"
 import { CategoriesRouter } from "./Infra/Routes/CategoriesRouter"
+import { StorageAccessRouter } from "./Infra/Routes/StorageAccessRouter"
 import { swaggerSpec } from "./Documentation"
 
 const app = express()
@@ -23,8 +24,9 @@ app.use(
   })
 )
 
-app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+app.use('/v1/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 app.use("/v1", CategoriesRouter)
 app.use("/v1", ProductsRouter)
+app.use("/v1", StorageAccessRouter)
 
 export default app
