@@ -69,5 +69,85 @@ export class ProductsController extends ProductsRepository {
       })
     }
   }
+
+  update = async (_request: Request, response: Response): Promise<any> => {
+    const { id } = _request.params
+
+    if (!id) {
+      return response.status(400).json({
+        codigo: "pamaras-user-not-found",
+        messagem: "O ID do produto para ser atualizado, está vazio."
+      })
+    }
+
+    try {
+      const PRODUCT_FOUND = await this.getProductByID(id)
+
+      if (!PRODUCT_FOUND) {
+        return response.status(404).json({
+          codigo: "product-not-found"
+        })
+      }
+
+      const { fields, files } = await processingFormDataHelper(_request)
+
+      const IMAGE = files.image[0] ?? null
+      const PRODUCT: IProduct = JSON.parse(fields.product[0])
+
+      if (Object.keys(PRODUCT).length === 0) {
+        return response.status(400).json({
+          messagem: "Os dados do produto é obrigatório.",
+          codigo: "void-product-field"
+        })
+      }
+
+      if (!PRODUCT.url_image  && IMAGE) {
+        const responseUpload = await upload(IMAGE)
+        if (responseUpload && /^(error-upload-image)$/i.test(String(responseUpload.codigo))) {
+          return response.status(400).json({ ...responseUpload })
+        }
+
+        PRODUCT.url_image = responseUpload?.path as string
+      }
+
+      const responseRepository = await this.updateProduct(PRODUCT, id)
+      if (/^(error-update-product-model)$/i.test(String(responseRepository.error))) throw Error()
+
+      return response.status(201).json({
+        messagem: "O produto foi atualizado com sucesso."
+      })
+    } catch (_) {
+      return response.status(400).json({
+        messagem: "Houve um erro ao tentar atualizar o produto, por favor, tente novamente.",
+        codigo: "error-update-product"
+      })
+    }
+  }
+
+  delete = async (_request: Request, response: Response): Promise<Response> => {
+    const { id } = _request.params
+
+    try {
+      const PRODUCT_FOUND = await this.getProductByID(id)
+
+      if (!PRODUCT_FOUND) {
+        return response.status(404).json({
+          codigo: "product-not-found"
+        })
+      }
+
+      const PRODUCT = await this.deleteProduct(id)
+      if (!PRODUCT || /^(error-delete-products-model)$/i.test(String(PRODUCT))) throw Error()
+
+      return response.status(204).json({
+        messagem: "O produto que foi deletado com sucesso."
+      })
+    } catch {
+      return response.status(400).json({
+        codigo: "error-delete-products",
+        mensagem: "Houve um erro ao deletar os produtos, por favor, tente novamente.",
+      })
+    }
+  }
 }
 

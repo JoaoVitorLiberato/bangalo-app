@@ -34,7 +34,7 @@ router.get("/produtos", (req: Request, res: Response) => { controller.list(req, 
  *       400:
  *          description: Manda uma propriedade "codigo" = "error-find-specific-products"
 */
-router.get("/produtos", (req: Request, res: Response) => { controller.list(req, res) })
+router.get("/produto/:id", (req: Request, res: Response) => { controller.listByID(req, res) })
 
 /**
  * @swagger
@@ -48,5 +48,43 @@ router.get("/produtos", (req: Request, res: Response) => { controller.list(req, 
  *          description: Manda uma propriedade "codigo" = "error-find-products"
 */
 router.post("/produto", (req: Request, res: Response) => { controller.create(req, res) })
+
+/**
+ * @swagger
+ * /produto/{id}:
+ *   put:
+ *     summary: Atualiza um produto específico.
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema:
+ *           type: string
+ *     responses:
+ *       200:
+ *         description: Atualiza um produto específico.
+ *       400:
+ *          description: Manda uma propriedade "codigo" = "error-update-products"
+*/
+router.put("/produto/:id", (req: Request, res: Response) => { controller.update(req, res) })
+
+/**
+ * @swagger
+ * /produto/{id}:
+ *   put:
+ *     summary: Deleta um produto específico.
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema:
+ *           type: string
+ *     responses:
+ *       200:
+ *         description: Deleta um produto específico.
+ *       400:
+ *          description: Manda uma propriedade "codigo" = "error-delete-products"
+*/
+router.delete("/produto/:id", (req: Request, res: Response) => { controller.delete(req, res) })
 
 export { router as ProductsRouter }
