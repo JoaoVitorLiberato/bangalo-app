@@ -1,5 +1,5 @@
 import path from "path"
-import sharp from sharp
+import sharp from "sharp"
 
 class StorageController {
   image = (request, response) => {

@@ -1,6 +1,6 @@
 import { Products } from "../Models/Products";
 import { Categories } from "../Models/Categories";
-import { IProduct } from "../Types/product";
+import { IProduct } from "../Types/Product";
 
 export class ProductsRepository {
   async getAllProducts (): Promise<IProduct[]|string> {

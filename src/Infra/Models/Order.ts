@@ -13,16 +13,37 @@ const ORDER = DATABASE.define(
       type: DataTypes.STRING,
       allowNull: false
     },
+    segmento: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    nome: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
     telefone: {
       type: DataTypes.STRING,
       allowNull: false
     },
-    consumidor: {
-      type: DataTypes.JSON
+    endereco: {
+      type: DataTypes.JSON,
+      allowNull: false
     },
-    produtos: DataTypes.JSON,
-    pagamento: DataTypes.JSON,
-    analytics: DataTypes.JSON,
+    messagem: {
+      type: DataTypes.STRING,
+    },
+    produtos: {
+      type: DataTypes.JSON,
+      allowNull: false
+    },
+    pagamento: {
+      type: DataTypes.JSON,
+      allowNull: false
+    },
+    analytics: {
+      type: DataTypes.JSON,
+      allowNull: false
+    },
     createdAt: {
       type: DataTypes.DATE,
       allowNull: false

@@ -1,5 +1,5 @@
 import { Categories } from "../Models/Categories"
-import { ICategories } from "../Types/categories"
+import { ICategories } from "../Types/Categories"
 
 export class CategoriesRepository {
   getListCategories (): Promise<any> {

@@ -2,7 +2,7 @@ import { Request, Response } from "express"
 import { ProductsRepository } from "../Repositories/ProductsRepository"
 import { upload } from "../Services/StorageService"
 import { processingFormDataHelper } from "../Helpers/ProcessingFormData"
-import { IProduct } from "../Types/product"
+import { IProduct } from "../Types/Product"
 
 export class ProductsController extends ProductsRepository {
   list = async (_request: Request, response: Response): Promise<Response> => {

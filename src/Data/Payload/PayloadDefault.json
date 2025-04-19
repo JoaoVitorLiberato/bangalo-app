@@ -1,20 +1,18 @@
 {
   "canal": "web",
   "segmento": "",
-  "consumidor": {
-    "nome": "",
-    "endereco": {
-      "cep": "",
-      "logradouro": "",
-      "bairro": "",
-      "cidade": "",
-      "uf": "",
-      "numero": "",
-      "complemento": "",
-      "referencia": ""
-    },
-    "mensagem": ""
+  "nome": "",
+  "endereco": {
+    "cep": "",
+    "logradouro": "",
+    "bairro": "",
+    "cidade": "",
+    "uf": "",
+    "numero": "",
+    "complemento": "",
+    "referencia": ""
   },
+  "mensagem": "",
   "telefone": "",
   "produtos": [],
   "pagamento": {

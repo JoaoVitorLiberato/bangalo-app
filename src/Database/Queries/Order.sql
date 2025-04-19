@@ -1,0 +1,13 @@
+CREATE TABLE orders (
+  id CHAR(36) PRIMARY KEY,
+  nome VARCHAR(255) NOT NULL,
+  telefone CHAR(11) NOT NULL,
+  endereco JSON,
+  canal VARCHAR(50) NOT NULL,
+  segmento VARCHAR(20) NOT NULL,
+  produtos JSON,
+  pagamento JSON,
+  analytics JSON,
+  createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
