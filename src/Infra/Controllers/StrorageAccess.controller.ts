@@ -1,5 +1,5 @@
 import { Request, Response } from "express"
-import { findImage } from "../Services/StorageService"
+import { findImage } from "../Services/Storage.service"
 
 export class StorrageAccessController {
   findByPathName = async (_request: Request, response: Response) => {

@@ -4,6 +4,7 @@ CREATE TABLE orders (
   telefone CHAR(11) NOT NULL,
   endereco JSON,
   canal VARCHAR(50) NOT NULL,
+  status VARCHAR(50) NOT NULL,
   segmento VARCHAR(20) NOT NULL,
   produtos JSON,
   pagamento JSON,
@@ -11,3 +12,7 @@ CREATE TABLE orders (
   createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   updatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
+
+SELECT * FROM orders 
+WHERE `orders`.`telefone` = "21967559557"
+AND `orders`.`createdAt` BETWEEN "2025-04-27 00:00:00" AND "2025-04-27 23:59:59"; 

@@ -5,7 +5,7 @@ import morgan from "morgan"
 import helmet from "helmet"
 import swaggerUi from "swagger-ui-express"
 
-import { connectDatabase } from "./Database"
+import { connectDatabase } from "./Infra/Database"
 import { ProductsRouter } from "./Infra/Routes/PorductsRouter"
 import { CategoriesRouter } from "./Infra/Routes/CategoriesRouter"
 import { OrderRouter } from "./Infra/Routes/OrderRouter"

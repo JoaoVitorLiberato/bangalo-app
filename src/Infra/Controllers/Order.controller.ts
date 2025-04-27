@@ -1,5 +1,6 @@
 import { Response, Request } from "express";
-import { OrderRepository } from "../Repositories/OrderReposity"
+import { OrderRepository } from "../Repositories/Order.reposity"
+import { serviceLinkCheckout } from "../Services/Payment.service";
 
 export class OrderController extends OrderRepository {
   create = async (_request: Request, response: Response): Promise<Response> => {
@@ -56,8 +57,11 @@ export class OrderController extends OrderRepository {
 
       if (/error-create-order-model/i.test(String(responseRepository.error))) throw Error()
 
+      const RESPONSE_PAYMENT = await serviceLinkCheckout(responseRepository)
+      
       return response.status(201).json({
         messagem: "Pedido criado com sucesso.",
+        link: RESPONSE_PAYMENT
       })
     } catch {
       return response.status(400).json({

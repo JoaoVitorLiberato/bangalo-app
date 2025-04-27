@@ -1,6 +1,7 @@
 import { IproductData } from "@/types/types-product"
 
 export interface IOrder {
+  id?: string,
   canal: string,
   nome: string,
   telefone: string,
@@ -19,4 +20,10 @@ export interface IOrder {
 		campaign: string,
 		params: Record<string, string|number|boolean>
   }
+}
+
+export interface IDataInfinity {
+  transaction_id: string,
+  slug: string,
+  order_nsu: string
 }

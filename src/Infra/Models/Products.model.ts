@@ -1,6 +1,6 @@
-import DATABASE from "../../Database";
+import DATABASE from "../Database";
 import { DataTypes, Model } from "sequelize";
-import { Categories } from "./Categories";
+import { Categories } from "./Categories.model";
 
 const Products = DATABASE.define(
   "products",

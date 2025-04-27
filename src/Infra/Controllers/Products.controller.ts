@@ -1,7 +1,7 @@
 import { Request, Response } from "express"
-import { ProductsRepository } from "../Repositories/ProductsRepository"
-import { upload } from "../Services/StorageService"
-import { processingFormDataHelper } from "../Helpers/ProcessingFormData"
+import { ProductsRepository } from "../Repositories/Products.repository"
+import { upload } from "../Services/Storage.service"
+import { processingFormDataHelper } from "../Helpers/ProcessingFormData.helper"
 import { IProduct } from "../Types/Product"
 
 export class ProductsController extends ProductsRepository {

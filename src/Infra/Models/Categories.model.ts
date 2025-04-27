@@ -1,5 +1,5 @@
 import { DataTypes } from "sequelize"
-import DATABASE from "../../Database"
+import DATABASE from "../Database"
 
 const Categories = DATABASE.define(
   "categories",

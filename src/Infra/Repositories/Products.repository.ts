@@ -1,5 +1,5 @@
-import { Products } from "../Models/Products";
-import { Categories } from "../Models/Categories";
+import { Products } from "../Models/Products.model";
+import { Categories } from "../Models/Categories.model";
 import { IProduct } from "../Types/Product";
 
 export class ProductsRepository {

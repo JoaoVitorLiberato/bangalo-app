@@ -1,5 +1,5 @@
 import { Request, Response } from "express"
-import { CategoriesRepository } from "../Repositories/CategoriesRepository"
+import { CategoriesRepository } from "../Repositories/Categories.repository"
 
 export class CategoriesController extends CategoriesRepository {
   list = async (_request: Request, response: Response) => {

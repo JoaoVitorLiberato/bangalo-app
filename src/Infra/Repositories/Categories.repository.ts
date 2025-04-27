@@ -1,4 +1,4 @@
-import { Categories } from "../Models/Categories"
+import { Categories } from "../Models/Categories.model"
 import { ICategories } from "../Types/Categories"
 
 export class CategoriesRepository {

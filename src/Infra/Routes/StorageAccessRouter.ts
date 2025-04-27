@@ -1,5 +1,5 @@
 import express from "express"
-import { StorrageAccessController } from "../Controllers/StrorageAccessController"
+import { StorrageAccessController } from "../Controllers/StrorageAccess.controller"
 
 const router = express.Router()
 const controller = new StorrageAccessController()

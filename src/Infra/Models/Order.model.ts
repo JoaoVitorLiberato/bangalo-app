@@ -1,4 +1,4 @@
-import DATABASE from "../../Database";
+import DATABASE from "../Database";
 import { DataTypes } from "sequelize"
 
 const ORDER = DATABASE.define(
@@ -10,6 +10,10 @@ const ORDER = DATABASE.define(
       primaryKey: true
     },
     canal: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    status: {
       type: DataTypes.STRING,
       allowNull: false
     },
